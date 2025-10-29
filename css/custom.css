@@ -1,0 +1,99 @@
+body {
+  background: #f9fafb;
+  color: #000;
+  font-family: 'Comfortaa', 'Segoe UI', Arial, sans-serif;
+}
+
+.header, .navbar, .menu, .site-title {
+  background: #000;
+  color: #C28E0E;
+}
+
+.header {
+  background: url('banner.png') center/cover no-repeat;
+  color: #C28E0E;
+}
+
+a, .menu a{
+  color: #fff;
+}
+
+.site-title a {
+  color: #C28E0E !important;
+}
+
+.post-title, h1, h2, h3, h4 {
+  color: #C28E0E;
+  font-family: 'Comfortaa', 'Segoe UI', Arial, sans-serif;
+}
+
+.button, .btn, input[type="submit"] {
+  background: #C28E0E;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.card, .post-entry {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(194, 142, 14, 0.08);
+  border: 1px solid #ceb888;
+}
+
+/* Center the home info section */
+.home-info, .home-info > *, .home-infoParams, .home-info-title, .home-info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Optional: Center markdown content inside */
+.home-info-content p {
+    text-align: center;
+}
+
+.social-icons a {
+  color: inherit !important;
+}
+
+.nav-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-social-icons a {
+    display: flex;
+    align-items: center;
+}
+
+/* Force contact links to be black and bold */
+.post-content a[href^="mailto"],
+.post-content a[href*="instagram.com"],
+.post-content a[href*="facebook.com"] {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.post-content a[href*="freefoodsnearme.com"] {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.logo a {
+  color: #000 !important;
+}
+
+#menu a {
+  color: #000 !important;
+}
