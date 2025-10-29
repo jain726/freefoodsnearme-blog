@@ -1,4 +1,4 @@
-baseURL = 'https://freefoodsnearme.com/blog/'
+baseURL = 'https://blog.freefoodsnearme.com/'
 languageCode = 'en-us'
 title = 'FreeFoodsNearMe'
 theme = 'PaperMod'
