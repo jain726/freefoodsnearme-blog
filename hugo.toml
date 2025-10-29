@@ -85,3 +85,5 @@ mainSections = ["posts", "newsletter"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Hugo file
