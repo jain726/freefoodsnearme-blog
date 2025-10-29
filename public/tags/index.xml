@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on FreeFoodsNearMe</title>
+    <link>https://freefoodsnearme.com/blog/tags/</link>
+    <description>Recent content in Tags on FreeFoodsNearMe</description>
+    <generator>Hugo -- 0.151.1</generator>
+    <language>en-us</language>
+    <managingEditor>freefood@freefoodsnearme.com</managingEditor>
+    <webMaster>freefood@freefoodsnearme.com</webMaster>
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://freefoodsnearme.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Food Access</title>
+      <link>https://freefoodsnearme.com/blog/tags/food-access/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>freefood@freefoodsnearme.com</author>
+      <guid>https://freefoodsnearme.com/blog/tags/food-access/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mission</title>
+      <link>https://freefoodsnearme.com/blog/tags/mission/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>freefood@freefoodsnearme.com</author>
+      <guid>https://freefoodsnearme.com/blog/tags/mission/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Impact</title>
+      <link>https://freefoodsnearme.com/blog/tags/social-impact/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>freefood@freefoodsnearme.com</author>
+      <guid>https://freefoodsnearme.com/blog/tags/social-impact/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

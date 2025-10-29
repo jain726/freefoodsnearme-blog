@@ -1,0 +1,4 @@
+{{- $customCSS := site.Params.customCSS | default slice -}}
+{{- range $customCSS }}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{- end }}

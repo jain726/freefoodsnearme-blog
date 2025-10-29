@@ -1,0 +1,87 @@
+baseURL = 'https://freefoodsnearme.com/blog/'
+languageCode = 'en-us'
+title = 'FreeFoodsNearMe'
+theme = 'PaperMod'
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+description = "FreeFoodsNearMe Blog: Guides, tips, and resources to find and share free food in your community."
+keywords = ["Free Food", "Food Pantries", "Food Sharing", "Community", "Guides", "Cincinnati"]
+ShowReadingTime = true
+defaultTheme = "auto"
+customCSS = ["css/custom.css"]
+ShowShareButtons = true
+ShowToc = false
+ShowBreadCrumbs = false
+comments = false
+env = "production"
+mainSections = ["posts", "newsletter"]
+
+  [params.label]
+  icon = "logo.png"
+
+  [params.homeInfoParams]
+  Title = "Welcome to FreeFoodsNearMe 👋"
+  Content = "Discover inspiring stories, practical tips, and local resources to help you find and share free food in your community. Join us in building a kinder, more connected world, **one meal at a time.**"
+
+  [params.author]
+  author = "Sidh Jain"
+  email = "freefood@freefoodsnearme.com"
+
+  [[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/freefoodsnearme/"
+
+  [[params.socialIcons]]
+  name = "facebook"
+  url = "https://www.facebook.com/profile.php?id=61581662233758"
+
+
+[social]
+  instagram = "https://www.instagram.com/freefoodsnearme/"
+  facebook = "https://www.facebook.com/profile.php?id=61581662233758"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "website"
+    name = "Website"
+    url = "https://freefoodsnearme.com"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "get-involved"
+    name = "Get Involved"
+    url = "/get-involved/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "donate"
+    name = "Donate"
+    url = "/donate/"
+    weight = 5
+
+[params.footer]
+  text = "FreeFoodsNearMe &copy; 2025 | <a href='/contact/'>Contact</a>"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
